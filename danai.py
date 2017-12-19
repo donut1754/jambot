@@ -2349,7 +2349,7 @@ def bot(op):
             return
           ginfo = cl.getGroup(op.param1)
           #random.choice(KAC).sendText(op.param1, "Selamat Datang Di Grup  " + str(ginfo.name))
-          cl.sendText(op.param1,cl.getContact(op.param2).displayName + "\nยินดีต้อนรับเข้าสู่ ....\nกลุ่ม" + str(ginfo.name) + "\nBy :"  + ginfo.creator.displayName)
+          cl.sendText(op.param1,cl.getContact(op.param2).displayName + "\nยินดีต้อนรับเข้าสู่ ....\nกลุ่ม  มสา แ แ แ แ แ แ" + str(ginfo.name) + "\nBy :"  + ginfo.creator.displayName)
           #random.choice(KAC).sendText(op.param1,"Budayakan Baca Note !!! yah Ka 😊\nSemoga Betah Kk 😘")
           print "MEMBER HAS JOIN THE GROUP"
         if op.type == 15:
