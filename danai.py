@@ -10,7 +10,7 @@ cl.login(qr=True)
 cl.loginResult()
 
 ki = LINETCR.LINE() #Zorro
-ki.login(qr=True()
+ki.login(qr=True)
 ki.loginResult()
 
 kk = LINETCR.LINE() #Sanji
